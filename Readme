@@ -6,16 +6,12 @@
 
 📚 [Topics Covered](#-topics-covered) &nbsp;•&nbsp; 🧩 [Practice Problems](#-practice-problems) &nbsp;•&nbsp; 📁 [Repo Structure](#-repository-structure) &nbsp;•&nbsp; 🚀 [How to Use](#-how-to-use-this-repo) &nbsp;•&nbsp; 📈 [Progress](#-progress-tracker)
 
----
-
 ## 👋 About This Repository
 
 This repository documents my journey of learning **SQL** and **Database Management Systems**.
 It contains my notes, practice queries, and solutions to SQL problems as I build a strong foundation in databases — from basics like `SELECT` statements to advanced concepts like joins, subqueries, window functions, and normalization.
 
 > 💡 **Goal:** Learn by doing — solve real problems, understand *why* a query works, not just *how*.
-
----
 
 ## 📚 Topics Covered
 
@@ -73,31 +69,30 @@ Problems are organized by difficulty so it's easy to navigate and revise later.
 
 Database-Management-System/
 │
-├── notes/                  # Concept notes & explanations
+├── notes/                 
 │   ├── basics.md
 │   ├── joins.md
 │   └── normalization.md
 │
-├── problems/                # Practice problems & solutions
+├── problems/                
 │   ├── easy/
 │   ├── medium/
 │   └── hard/
 │
-├── queries/                  # Standalone practice SQL queries
+├── queries/                  
 │   └── *.sql
 │
-├── er-diagrams/               # Database design diagrams
+├── er-diagrams/               
 │   └── *.png
 │
-└── README.md                  # You are here 📍
-
+└── README.md                 
 
 ## 🚀 How to Use This Repo
 
 1. **Clone it**
-   ```bash
+   bash
    git clone https://github.com/PallaviRani01/Database-Management-System.git
-   ```
+   
 2. **Pick a topic or problem** from the tables above.
 3. **Open the `.sql` file**, read the problem statement in the comments, and try solving it yourself first.
 4. **Compare** your solution with the provided answer and notes.
@@ -117,10 +112,7 @@ This repository is my public log of that process: mistakes, breakthroughs, and e
 
 If you're also learning SQL, feel free to ⭐ this repo, fork it, or suggest problems via an issue!
 
----
-
 <div align="center">
 
 **Made with 💻 and lots of `SELECT * FROM curiosity;` by Pallavi Rani**
-
 </div>
