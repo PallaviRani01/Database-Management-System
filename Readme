@@ -1,23 +1,16 @@
 # 🗄️ Database Management System — SQL Learning Journey
 
-<div align="center">
+> A personal journey of learning **SQL** and **Database Management Systems (DBMS)** — one query, one problem at a time.
 
-![SQL](https://img.shields.io/badge/SQL-Learning-blue?style=for-the-badge&logo=postgresql&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=for-the-badge)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-0-orange?style=for-the-badge)
-![Made by](https://img.shields.io/badge/Made%20by-PallaviRani01-purple?style=for-the-badge)
+**Author:** [Pallavi Rani](https://github.com/PallaviRani01) &nbsp;|&nbsp; **Status:** 🟢 In Progress &nbsp;|&nbsp; **Stack:** SQL · MySQL / PostgreSQL / SQLite
 
-**A personal journey of learning SQL & Database Management Systems — one query, one problem at a time.**
-
-[📚 Topics Covered](#-topics-covered) • [🧩 Practice Problems](#-practice-problems) • [📁 Repo Structure](#-repository-structure) • [🚀 How to Use](#-how-to-use-this-repo) • [📈 Progress Tracker](#-progress-tracker)
-
-</div>
+📚 [Topics Covered](#-topics-covered) &nbsp;•&nbsp; 🧩 [Practice Problems](#-practice-problems) &nbsp;•&nbsp; 📁 [Repo Structure](#-repository-structure) &nbsp;•&nbsp; 🚀 [How to Use](#-how-to-use-this-repo) &nbsp;•&nbsp; 📈 [Progress](#-progress-tracker)
 
 ---
 
 ## 👋 About This Repository
 
-This repository is where I document my journey of learning **SQL** and **Database Management Systems (DBMS)**.
+This repository documents my journey of learning **SQL** and **Database Management Systems**.
 It contains my notes, practice queries, and solutions to SQL problems as I build a strong foundation in databases — from basics like `SELECT` statements to advanced concepts like joins, subqueries, window functions, and normalization.
 
 > 💡 **Goal:** Learn by doing — solve real problems, understand *why* a query works, not just *how*.
@@ -27,80 +20,77 @@ It contains my notes, practice queries, and solutions to SQL problems as I build
 ## 📚 Topics Covered
 
 | # | Topic | Status |
-|---|-------|--------|
-| 1 | SQL Basics (`SELECT`, `WHERE`, `ORDER BY`) | ⬜ Not Started |
-| 2 | Filtering & Aggregation (`GROUP BY`, `HAVING`) | ⬜ Not Started |
-| 3 | Joins (`INNER`, `LEFT`, `RIGHT`, `FULL`) | ⬜ Not Started |
-| 4 | Subqueries & Nested Queries | ⬜ Not Started |
-| 5 | Window Functions | ⬜ Not Started |
-| 6 | Views, Indexes & Constraints | ⬜ Not Started |
-| 7 | Stored Procedures & Triggers | ⬜ Not Started |
-| 8 | Database Normalization (1NF–3NF) | ⬜ Not Started |
-| 9 | ER Diagrams & Schema Design | ⬜ Not Started |
-| 10 | Transactions & ACID Properties | ⬜ Not Started |
+|---|-------|:---:|
+| 1 | SQL Basics (`SELECT`, `WHERE`, `ORDER BY`) | ⬜ |
+| 2 | Filtering & Aggregation (`GROUP BY`, `HAVING`) | ⬜ |
+| 3 | Joins (`INNER`, `LEFT`, `RIGHT`, `FULL`) | ⬜ |
+| 4 | Subqueries & Nested Queries | ⬜ |
+| 5 | Window Functions | ⬜ |
+| 6 | Views, Indexes & Constraints | ⬜ |
+| 7 | Stored Procedures & Triggers | ⬜ |
+| 8 | Database Normalization (1NF–3NF) | ⬜ |
+| 9 | ER Diagrams & Schema Design | ⬜ |
+| 10 | Transactions & ACID Properties | ⬜ |
 
-> Update the ✅ / ⬜ as you complete each topic to track your own progress!
-
----
+> Replace ⬜ with ✅ as you complete each topic to track your own progress.
 
 ## 🧩 Practice Problems
 
-Every problem I solve is organized by difficulty so it's easy to navigate and revise later.
+Problems are organized by difficulty so it's easy to navigate and revise later.
 
 <details>
-<summary><b>🟢 Easy Problems</b> (click to expand)</summary>
+<summary><b>🟢 Easy Problems</b></summary>
+<br>
 
 | # | Problem | Concept | Solution |
 |---|---------|---------|----------|
-| 1 | *Add your first problem here* | `SELECT` basics | [`/problems/easy/01.sql`](#) |
+| 1 | *Add your first problem here* | `SELECT` basics | `/problems/easy/01.sql` |
 
 </details>
 
 <details>
-<summary><b>🟡 Medium Problems</b> (click to expand)</summary>
+<summary><b>🟡 Medium Problems</b></summary>
+<br>
 
 | # | Problem | Concept | Solution |
 |---|---------|---------|----------|
-| 1 | *Add your first problem here* | Joins | [`/problems/medium/01.sql`](#) |
+| 1 | *Add your first problem here* | Joins | `/problems/medium/01.sql` |
 
 </details>
 
 <details>
-<summary><b>🔴 Hard Problems</b> (click to expand)</summary>
+<summary><b>🔴 Hard Problems</b></summary>
+<br>
 
 | # | Problem | Concept | Solution |
 |---|---------|---------|----------|
-| 1 | *Add your first problem here* | Window Functions | [`/problems/hard/01.sql`](#) |
+| 1 | *Add your first problem here* | Window Functions | `/problems/hard/01.sql` |
 
 </details>
 
----
 
 ## 📁 Repository Structure
 
-```
 Database-Management-System/
 │
-├── notes/                 # Concept notes & explanations
+├── notes/                  # Concept notes & explanations
 │   ├── basics.md
 │   ├── joins.md
 │   └── normalization.md
 │
-├── problems/               # Practice problems & solutions
+├── problems/                # Practice problems & solutions
 │   ├── easy/
 │   ├── medium/
 │   └── hard/
 │
-├── queries/                 # Standalone practice SQL queries
+├── queries/                  # Standalone practice SQL queries
 │   └── *.sql
 │
-├── er-diagrams/              # Database design diagrams
+├── er-diagrams/               # Database design diagrams
 │   └── *.png
 │
-└── README.md                # You are here 📍
-```
+└── README.md                  # You are here 📍
 
----
 
 ## 🚀 How to Use This Repo
 
@@ -110,31 +100,15 @@ Database-Management-System/
    ```
 2. **Pick a topic or problem** from the tables above.
 3. **Open the `.sql` file**, read the problem statement in the comments, and try solving it yourself first.
-4. **Compare** with the provided solution and notes.
+4. **Compare** your solution with the provided answer and notes.
 5. **Track your progress** by checking off topics as you go.
-
----
 
 ## 🛠️ Tools Used
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+- **MySQL** / **PostgreSQL** / **SQLite** — for writing and testing queries
+- **VS Code** — for notes and query files
+- **Draw.io / dbdiagram.io** — for ER diagrams
 
----
-
-## 📈 Progress Tracker
-
-```
-Easy Problems     ▓▓░░░░░░░░  0%
-Medium Problems   ▓░░░░░░░░░  0%
-Hard Problems     ▓░░░░░░░░░  0%
-```
-
-*(Update the bars manually — or replace with a GitHub Actions badge later!)*
-
----
 
 ## 🌱 Why This Repo Exists
 
@@ -147,6 +121,6 @@ If you're also learning SQL, feel free to ⭐ this repo, fork it, or suggest pro
 
 <div align="center">
 
-**Made with 💻 and lots of `SELECT * FROM curiosity;` by [Pallavi Rani](https://github.com/PallaviRani01)**
+**Made with 💻 and lots of `SELECT * FROM curiosity;` by Pallavi Rani**
 
 </div>
